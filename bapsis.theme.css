@@ -1,0 +1,107 @@
+/* BAPSIS v2 Theme - Extracted from main project */
+
+/* #region Colors Root */
+:root {
+  --white: #ffffff;
+  --white-rgb: 255, 255, 255;
+  --gray-100: #f8f9fa;
+  --gray-200: #e9ecef;
+  --gray-300: #dee2e6;
+  --gray-400: #ced4da;
+  --gray-500: #adb5bd;
+  --gray-600: #6c757d;
+  --gray-700: #495057;
+  --gray-800: #343a40;
+  --gray-900: #212529;
+  --black: #000000;
+  --black-rgb: 0, 0, 0;
+  --red: #ea3131;
+  --red-rgb: 234, 49, 49;
+  --green: #b1cc21;
+  --green-rgb: 177, 204, 33;
+  --blue: #66c3d0;
+  --blue-rgb: 102, 195, 208;
+  --primary-bg: #007bff;
+  --primary-color: #004085;
+  --primary-font-color: #007bff;
+  --primary-rgb: 0, 123, 255;
+  --secondary-bg: #6c757d;
+  --secondary-color: #383d41;
+  --secondary-font-color: #6c757d;
+  --secondary-rgb: 108, 117, 125;
+  --success-bg: #28a745;
+  --success-color: #155724;
+  --success-font-color: #28a745;
+  --success-rgb: 40, 167, 69;
+  --danger-bg: #dc3545;
+  --danger-color: #721c24;
+  --danger-font-color: #dc3545;
+  --danger-rgb: 220, 53, 69;
+  --warning-bg: #ffc107;
+  --warning-color: #856404;
+  --warning-font-color: #ffc107;
+  --warning-rgb: 255, 193, 7;
+  --info-bg: #17a2b8;
+  --info-color: #0c5460;
+  --info-font-color: #17a2b8;
+  --info-rgb: 23, 162, 184;
+  --light-bg: var(--gray-300);
+  --light-color: #818182;
+  --dark-bg: #343a40;
+  --dark-color: #1b1e21;
+  --font-color: #4a4a4a;
+}
+/* #endregion */
+
+/* #region Box Shadow */
+:root {
+  --box-shadow: 0 0.5rem 1.5rem -0.5rem var(--gray-500);
+  --green-box-shadow: 0 0 0 0.2rem rgba(var(--green-rgb), 0.1);
+  --blue-box-shadow: 0 0 0 0.2rem rgba(var(--blue-rgb), 0.1);
+  --primary-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.3);
+  --secondary-box-shadow: 0 0 0 0.2rem rgb(108, 117, 125, 0.3);
+  --success-box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.3);
+  --danger-box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.3);
+  --warning-box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.3);
+  --info-box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.3);
+}
+/* #endregion */
+
+/* #region Border and Border Radius */
+:root {
+  --border-radius: 0.465rem;
+  --border-radius-sm: 0.25rem;
+  --border-radius-lg: 0.5rem;
+  --border-radius-xl: 1rem;
+  --border-radius-xxl: 2rem;
+  --border-radius-pill: 50rem;
+}
+/* #endregion */
+
+/* #region Button */
+:root {
+  --btn-primary-bg: #007bff;
+  --btn-primary-color: var(--white);
+  --btn-secondary-bg: #6c757d;
+  --btn-secondary-color: var(--white);
+  --btn-success-bg: #28a745;
+  --btn-success-color: var(--white);
+  --btn-danger-bg: #dc3545;
+  --btn-danger-color: var(--white);
+  --btn-warning-bg: #ffc107;
+  --btn-warning-color: #212529;
+  --btn-info-bg: #17a2b8;
+  --btn-info-color: var(--white);
+  --btn-disabled-bg: #f8f9fa;
+  --btn-disabled-color: var(--gray-400);
+}
+/* #endregion */
+
+/* #region Font */
+:root {
+  --font-weight-400: 400;
+  --font-weight-500: 500;
+  --font-weight-600: 600;
+  --font-weight-700: 700;
+}
+/* #endregion */
