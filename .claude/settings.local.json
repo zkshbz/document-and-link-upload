@@ -25,7 +25,8 @@
       "Read(//c/Code/Abis/bapsisv2/**)",
       "Read(//c/Code/Abis/bapsis/**)",
       "Bash(del FileUpload.jsx)",
-      "Bash(git rm:*)"
+      "Bash(git rm:*)",
+      "Bash(cp:*)"
     ],
     "deny": [],
     "ask": []
