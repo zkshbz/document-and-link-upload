@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(npm install)",
+      "Bash(npm run dev:*)",
+      "Bash(timeout:*)",
+      "Bash(git init:*)",
+      "Bash(npm install:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(gh repo create:*)",
+      "Bash(git config:*)",
+      "Bash(git remote add:*)",
+      "Bash(git remote remove:*)",
+      "Bash(git push:*)",
+      "Bash(npm run deploy:*)",
+      "Bash(git branch:*)",
+      "Bash(npx gh-pages-clean:*)",
+      "Bash(git checkout:*)",
+      "Bash(git reset:*)",
+      "Bash(npm run build:*)",
+      "Bash(npx vite:*)",
+      "Bash(npx gh-pages:*)",
+      "Read(//c/Code/Abis/bapsisv2/**)",
+      "Read(//c/Code/Abis/bapsis/**)",
+      "Bash(del FileUpload.jsx)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
